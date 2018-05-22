@@ -1,0 +1,160 @@
+.center-text {
+    width: 1350px;
+	  height: 80px;
+	  margin-top:37px;
+	  font-size: 24px;
+	  text-align: center;
+	  font-weight: bold;
+  }
+
+.center-img {
+    width: 780px;
+    height: 500px;
+    position: absolute;
+    margin: 7px;
+    padding: 10px;
+    border-right: 1px solid gray ;
+    background-image: url(file:///D:/Новая%20папка/img/card-american-express.svg), url(file:///D:/Новая%20папка/img/card-discovery.svg), url(file:///D:/Новая%20папка/img/card-master.svg), url(file:///D:/Новая%20папка/img/card-visa.jpg.svg),url(file:///D:/Новая%20папка/img/credit-card-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: 364px 30px, 300px 30px, 240px 30px,165px 40px, top center;
+  }
+
+.center {
+  	width: 400px;
+  	height: 377px;
+  	position: absolute;
+  	margin-left:820px;
+  }
+
+.center-gray {
+  	width: 217px;
+  	height: 137px;
+  	position: absolute;
+  	margin-left: 70px;
+  	margin-top: 20px;
+  	border:1px solid gray;
+  	border-radius: 4px;
+  	background: #F7F7F7;
+  	text-indent:30px;
+  	font-size: 20px;
+  }
+
+.zip-postal-code {
+    width: 300px;
+    height: 57px;
+    margin-left: 162px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+.checkbox {
+    width: 320px;
+    height: 30px;
+    margin: 00px 270px;
+}
+
+.cardnumber {
+  	width: 200px;
+  	height: 30px;
+  	position: absolute;
+  	border-radius: 4px;
+    margin: 113px 150px;
+    margin-bottom: 4px;
+  	text-indent: 7px;
+  }
+
+.cardnumber-for-input {
+  	width: 342px;
+  	height: 30px;
+  	position: absolute;
+  	border-radius: 4px;
+    margin-bottom: 4px;
+    margin: 171px 150px;
+  	text-indent: 7px;
+  }
+
+.valid-date {
+  	width: 70px;
+  	height: 30px;
+  	position: absolute;
+  	border-radius: 4px;
+    margin: 112px 422px;
+  	text-align: center;
+  }
+
+.code {
+  	width: 70px;
+  	height: 30px;
+  	border-radius: 4px;
+  	margin: 112px 550px;
+  	text-align: center;
+  }
+
+.zip-postal-code-for-input {
+  	width: 150px;
+  	height: 25px;
+  	border-radius: 4px;
+  	text-indent: 7px; 
+  }
+
+.subscription {
+    text-indent: 162px;
+    margin-top: -10px;
+  }
+
+.text-accent {
+    display: inline-block;
+    margin-left: -140px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+.checkbox-for-text {
+    color: red; 
+  }
+
+.submit-for-input {
+  	width: 250px;
+  	height: 40px;
+  	border-radius: 4px;
+  	margin: 10px 270px;
+  	background: linear-gradient(to bottom, #ffd76b 0%,#ffa73d 50%, #ff7f04 100%);
+  	font-weight: bold;
+  }
+
+.payment-for-input {
+  	width: 217px;
+  	height: 50px;
+  	border-radius: 4px;
+  	margin: 10px 70px;
+  	background: black;
+  	font-size: 20px;
+  	background-image: url(file:///D:/Новая%20папка/img/apple.png);
+  	background-repeat: no-repeat;
+  	background-position: 60px 10px;
+    color: white;
+  }
+
+.button-for-input {
+    width: 217px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px 70px;
+    font-size: 20px;
+    background: white;
+    background-image: url(file:///D:/Новая%20папка/img/google.png);
+    background-repeat: no-repeat;
+    background-position: 60px 10px;
+}
+
+.paypal-for-input {
+    width: 128px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 00px 40px;
+    color: white;
+    font-weight: bold;
+    background: #3AAACF;
+    background-image: url(file:///D:/Новая%20папка/img/paypal.png);
+    background-repeat: no-repeat;
+}
