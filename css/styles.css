@@ -158,3 +158,52 @@
     background-image: url(file:///D:/Новая%20папка/img/paypal.png);
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 400px) and (max-height: 700px) {
+  .center-text{
+    width: 270px;
+    height: 37px;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+  .center-img {
+    background: none;
+    width: 300px; 
+    height: 180px;
+    border: none; 
+  }
+  .cardnumber {
+    margin: 00px 30px;
+    width: 130px;
+  }
+  .cardnumber-for-input {
+    margin: 50px 30px;
+    width: 170px;
+  }
+  .valid-date {
+    margin: 100px 30px;
+  }
+  .code {
+    margin: 150px 30px;
+  }
+  .zip-postal-code {
+    margin: -127px 3px;
+    height: 47px;
+  }
+  .subscription {
+    margin: 130px -158px;
+  }
+  .text-accent {
+    margin-left: -100px;
+    margin:  -139px;
+  }
+  .checkbox {
+   margin: -117px -15px; 
+  }
+  .submit-for-input {
+   margin:  130px 15px;
+  }
+  .center {
+    margin: 400px 00px;
+  }
+}
