@@ -3,49 +3,68 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="widht=device-widht, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
 </head>
 <body>
     <div class="payment-form-title">
         Enter your payment information to complete purchase
     </div>
-    <div class="center-img">
+    <div class="payment-img">
     	<form> 
             <input
                 type="text"
-                class="cardnumber"
+                class="form-cardnumber"
                 placeholder="Card number"
                 required>
             <input
                 type="text"
-                class="cardnumber-for-input"
+                class="form-cardnumber-for-input"
                 placeholder="Name on Card">
             <input
                 type="text"
-                class="valid-date"
+                class="form-valid-date"
                 placeholder="MM/YY">
-            <input type="text" class="code" placeholder="CVV/CVC">
+            <input 
+                type="text" 
+                class="form-card-verification-value" 
+                placeholder="CVV/CVC">
             <div class="zip-postal-code">
                 <label>
                     Zip/Postal Code
-                    <input type="text" class="zip-postal-code-for-input" placeholder="01001">
+                    <input 
+                        type="text" 
+                        class="form-zip-postal-code" 
+                        placeholder="01001">
                 </label>
             </div>
-            <p  class="subscription">
-            	<b>Subscription</b>
+            <p  class="subscription-for-text">
+            	Subscription
                 <span class="text-accent">PLUS(ANNUAL)</span>
             </p>
             <div class="checkbox">
                 <input type="checkbox"><label>I have read and agree the <u class="checkbox-for-text">Terms & Conditions</u></label>
             </div> 
-            <input type="submit" class="submit-for-input" value="Start My PDFfiller Subscription!">
+            <input 
+                type="button" 
+                class="btn-for-input" 
+                value="Start My PDFfiller Subscription!">
         </form>
     </div>
-    <div class="center">
-        <input type="button" class="payment-for-input" value="Pay">
-        <input type="button" class="button-for-input" value="Pay">
-        <div class="center-gray">
+    <div class="righter">
+        <input 
+            type="button" 
+            class="btn-payment-google" 
+            value="Pay">
+        <input 
+            type="button" 
+            class="btn-payment-apple" 
+            value="Pay">
+        <div class="righter-gray">
         	<p>Or pay with PayPal</p>
-            <input type="submit" class="paypal-for-input" value="PayPal">
+            <input 
+                type="submit" 
+                class="paypal-for-input" 
+                value="PayPal">
         </div>
     </div>
 </body>

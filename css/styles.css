@@ -1,213 +1,257 @@
-.center-text {
+.payment-form-title {
     width: 1350px;
-	  height: 80px;
-	  margin-top:37px;
-	  font-size: 24px;
-	  text-align: center;
+	  height: 58px;
+	  margin-top: 36px;
+	  font-size: 25px;
+	  text-indent: 329px;
 	  font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
-.center-img {
+.payment-img { 
+    position: absolute;
     width: 780px;
     height: 500px;
-    position: absolute;
     margin: 7px;
     padding: 10px;
     border-right: 1px solid gray ;
     background-image: url(../img/card-american-express.svg),
-    url(img/card-discovery.svg),
-    url(img/card-master.svg),
-    url(img/card-visa.jpg.svg),
-    url(img/credit-card-bg.png) ;
+    url(../img/card-discovery.svg),
+    url(../img/card-master.svg),
+    url(../img/card-visa.jpg.svg),
+    url(../img/credit-card-bg.png) ;
     background-repeat: no-repeat;
-    background-position: 364px 30px, 300px 30px, 240px 30px,165px 40px, top center;
+    background-position: 382px 30px,326px 31px, 263px 31px, 184px 37px, 156px 1px;
   }
 
-.center {
+.righter {
+    position: absolute;
   	width: 400px;
-  	height: 377px;
-  	position: absolute;
-  	margin-left:820px;
+  	height: 377px;	
+  	margin-left: 820px;
   }
 
-.center-gray {
-  	width: 217px;
-  	height: 137px;
-  	position: absolute;
-  	margin-left: 70px;
-  	margin-top: 20px;
-  	border:1px solid gray;
+.righter-gray {
+    position: absolute;
+  	width: 216px;
+  	height: 153px;
+  	margin: 14px 63px;
+    text-indent:30px;
+    font-size: 20px;
+    font-family: SourceSansPro-Regular;
+  	border: 1px solid gray;
   	border-radius: 4px;
-  	background: #F7F7F7;
-  	text-indent:30px;
-  	font-size: 20px;
+  	background-color: #F7F7F7;
+  	
   }
 
 .zip-postal-code {
-    width: 300px;
-    height: 57px;
-    margin-left: 162px;
-    margin-top: 10px;
+    width: 347px;
+    height: 53px;
+    margin: 13px 0 0 167px;
     font-weight: bold;
+    font-size: 16px;
+    font-family: SourceSansPro-Bold;
   }
 
 .checkbox {
     width: 320px;
-    height: 30px;
-    margin: 00px 270px;
+    height: 38px;
+    margin: 1px 292px;
+    font-family: SourceSansPro-Regular;
+    font-size: 15px;
 }
 
-.cardnumber {
-  	width: 200px;
-  	height: 30px;
-  	position: absolute;
-  	border-radius: 4px;
-    margin: 113px 150px;
-    margin-bottom: 4px;
-  	text-indent: 7px;
+.form-cardnumber {
+    position: absolute;
+  	width: 210px;
+  	height: 37px;
+    margin: 113px 169px;
+  	text-indent: 9px;
+    border-radius: 4px;
+    border-style: none;
   }
 
-.cardnumber-for-input {
-  	width: 342px;
-  	height: 30px;
-  	position: absolute;
+.form-cardnumber-for-input {
+    position: absolute;
+  	width: 356px;
+  	height: 37px;
+    margin: 173px 169px;
+    text-indent: 12px;
   	border-radius: 4px;
-    margin-bottom: 4px;
-    margin: 171px 150px;
-  	text-indent: 7px;
+    border-style: none;
   }
 
-.valid-date {
-  	width: 70px;
-  	height: 30px;
-  	position: absolute;
+.form-valid-date {
+    position: absolute;
+  	width: 80px;
+  	height: 37px;
+  	margin: 113px 445px;
+    text-align: center;
   	border-radius: 4px;
-    margin: 112px 422px;
+    border-style: none;
+  }
+
+.form-card-verification-value {
+  	width: 80px;
+  	height: 37px;
+    margin: 113px 577px;
   	text-align: center;
-  }
-
-.code {
-  	width: 70px;
-  	height: 30px;
   	border-radius: 4px;
-  	margin: 112px 550px;
-  	text-align: center;
+    border-style: none;
   }
 
-.zip-postal-code-for-input {
-  	width: 150px;
-  	height: 25px;
+.form-zip-postal-code{
+  	width: 160px;
+  	height: 27px;
+    margin: 0px 13px; 
+  	text-indent: 9px;
   	border-radius: 4px;
-  	text-indent: 7px; 
+    border-width: 1px;
+
   }
 
-.subscription {
-    text-indent: 162px;
-    margin-top: -10px;
+.subscription-for-text {
+    margin-top: -2px;
+    text-indent: 171px;
+    font-weight: bold;
+    font-family: SourceSansPro-Bold;
   }
 
 .text-accent {
     display: inline-block;
-    margin-left: -140px;
+    margin-left: -142px;
     text-transform: uppercase;
     font-weight: bold;
+    font-family: SourceSansPro-Bold;
   }
 
 .checkbox-for-text {
     color: red; 
   }
 
-.submit-for-input {
-  	width: 250px;
-  	height: 40px;
-  	border-radius: 4px;
-  	margin: 10px 270px;
+.btn-for-input {
+  	width: 260px;
+  	height: 41px;
+  	margin: 11px 294px;
+  	font-family: SourceSansPro-Bold;
+    font-size: 15px;
+    font-weight: bold;
   	background: linear-gradient(to bottom, #ffd76b 0%,#ffa73d 50%, #ff7f04 100%);
-  	font-weight: bold;
-  }
-
-.payment-for-input {
-  	width: 217px;
-  	height: 50px;
   	border-radius: 4px;
-  	margin: 10px 70px;
-  	background: black;
-  	font-size: 20px;
-  	background-image: url(file:///D:/Новая%20папка/img/apple.png);
-  	background-repeat: no-repeat;
-  	background-position: 60px 10px;
-    color: white;
+    border-color: orange;
+    border-style: solid;
+    border-width: 1px;
+    
   }
 
-.button-for-input {
-    width: 217px;
-    height: 50px;
-    border-radius: 4px;
-    margin: 10px 70px;
-    font-size: 20px;
+.btn-payment-google {
+  	width: 220px;
+  	height: 50px;
+  	margin: 7px 61px;
+    font-size: 27px;
+  	font-family: SourceSansPro-Regular;
+    text-indent: 21px;
+    color: white;
+  	background: black;
+  	background-image: url(../img/apple.png);
+  	background-position: 77px 10px;
+  	background-repeat: no-repeat;
+    border-style: none;border-radius: 4px;
+    
+  }
+
+.btn-payment-apple{
+    width: 220px;
+    height: 50px;margin: 14px 62px;
+    font-size: 27px;
+    font-family: SourceSansPro-Regular;
+    text-indent: 24px;
     background: white;
-    background-image: url(file:///D:/Новая%20папка/img/google.png);
+    background-image: url(../img/google.png);
+    background-position: 77px 10px;
     background-repeat: no-repeat;
-    background-position: 60px 10px;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    
 }
 
 .paypal-for-input {
-    width: 128px;
-    height: 40px;
-    border-radius: 4px;
-    margin: 00px 40px;
-    color: white;
+    width: 118px;
+    height: 43px;
+    margin: 8px 45px;
     font-weight: bold;
+    color: white;
+    font-family: SourceSansPro-BoldItalic;
+    font-size: 17px;
+    text-indent: 18px;
     background: #3AAACF;
-    background-image: url(file:///D:/Новая%20папка/img/paypal.png);
+    background-image: url(../img/paypal.png);
     background-repeat: no-repeat;
+    background-position: 8px 5px;
+    border-style: none;
+    border-radius: 4px;
+    
 }
 
 @media screen and (max-width: 400px) {
-  .center-text{
+  .payment-form-title{
     width: 270px;
     height: 37px;
-    font-size: 1em;
     margin-left: 10px;
+    font-size: 1em;
+    text-align: center;
+    text-indent: 0px;
   }
-  .center-img {
-    background: none;
+
+  .payment-img {
     width: 300px; 
     height: 180px;
+    background: none;
     border: none; 
   }
-  .cardnumber {
-    margin: 00px 30px;
+
+  .form-cardnumber {
     width: 130px;
+    margin: 00px 30px;
+    border: 1px solid gray;
   }
-  .cardnumber-for-input {
-    margin: 50px 30px;
+
+  .form-cardnumber-for-input {
     width: 170px;
+    margin: 50px 30px;
+    border: 1px solid gray;
   }
-  .valid-date {
+
+  .form-valid-date {
     margin: 100px 30px;
+    border: 1px solid gray;
   }
-  .code {
+
+  .form-card-verification-value {
     margin: 150px 30px;
+    border: 1px solid gray;
   }
+
   .zip-postal-code {
-    margin: -127px 3px;
     height: 47px;
+    margin: -127px 3px;
   }
-  .subscription {
+
+  .subscription-for-text {
     margin: 130px -158px;
   }
-  .text-accent {
-    margin-left: -100px;
-    margin:  -139px;
-  }
+
   .checkbox {
-   margin: -117px -15px; 
+   margin: -120px -15px; 
   }
-  .submit-for-input {
+
+  .btn-for-input {
    margin:  130px 15px;
   }
-  .center {
+
+  .righter {
     margin: 400px 00px;
   }
 }
